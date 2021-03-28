@@ -3,10 +3,10 @@
 exports[`<MovieItem /> should render the various inner Elements 1`] = `
 <div>
   <div
-    class="sc-hKgILt fRnfuM"
+    class="sc-gsTCUz bZhyoN"
   >
     <div
-      class="sc-eCssSg fnifPK"
+      class="sc-dlfnbm ckjpdP"
     >
       <img
         alt="movie-img"

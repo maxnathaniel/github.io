@@ -50,11 +50,11 @@ export const SearchBar: FC<Props> = (props) => {
   async function getData(input: string) {
     try {
       const data: MoviesData = await getMovies(input, page);
-      if (data.Search) {
+      if (data && data.Search) {
         onUpdate(data.Search, input);
       }
     } catch (e) {
-      console.error('Unable to retrieve Movies', e);
+      onError(e.toString());
     }
   }
 
@@ -75,16 +75,11 @@ export const SearchBar: FC<Props> = (props) => {
 
   const onKeyDown = (e: any) => {
     if (e.key === 'Enter') {
-      try {
-        // we can replace sessionStorage with an in memory state management lib
-        // like redux, mobx, recoil, akita etc
-        onClearList();
-        sessionStorage.setItem('search', input);
-        getData(input);
-      } catch (e) {
-        console.error('Unable to retrieve Movies', e);
-        onError(e.toString());
-      }
+      // we can replace sessionStorage with an in memory state management lib
+      // like redux, mobx, recoil, akita etc
+      onClearList();
+      sessionStorage.setItem('search', input);
+      getData(input);
     }
   };
 

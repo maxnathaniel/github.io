@@ -1,5 +1,4 @@
 import React, { FC, useEffect, useRef, useState } from 'react';
-import { Placeholder } from 'semantic-ui-react';
 
 import { getMovies, styled } from 'src/global';
 import { SearchBar } from 'src/Search';
@@ -14,6 +13,12 @@ const WelcomeText = styled.p`
   font-size: 1.8em;
   color: ${(props) => props.theme.colours.neon1};
   margin: 20% auto 0 auto;
+`;
+
+const ErrorText = styled.p`
+  margin: 20% auto 0 auto;
+  font-size: 1.6em;
+  color: ${(props) => props.theme.colours.red1};
 `;
 
 const Bottom = styled.div``;
@@ -67,6 +72,7 @@ export const Movies: FC = () => {
     setSearch(search);
     moviesCountRef.current = movies.length + data.length;
     setMovies((moviesList) => [...moviesList, ...data]);
+    setError('');
   };
 
   const onMoviesUpdateError = (error: any) => {
@@ -138,16 +144,17 @@ export const Movies: FC = () => {
         onUpdate={onMoviesUpdate}
         onError={onMoviesUpdateError}
       />
-      {!movies.length && (
+      {!movies.length && !error && (
         <WelcomeText>
           No results found. Please type in the search bar above.
         </WelcomeText>
       )}
+      {error && <ErrorText>Error retrieving movies</ErrorText>}
       {movies.map((movie) => {
         return <MovieItem key={movie.imdbID} data={movie} />;
       })}
       {isLoading &&
-        [1, 2, 3, 4].map((x) => (
+        [1, 2, 3, 4, 5, 6].map((x) => (
           <MovieItem key={x} data={{}} isPlaceHolder={isLoading} />
         ))}
       <Bottom ref={bottomRef} />

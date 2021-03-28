@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server/main.js",
+    "dev": "webpack-dev-server --open --config build/webpack.dev.js",
     "test": "jest",
     "test-coverage": "jest --coverage",
     "build": "webpack --config build/webpack.prod.js"

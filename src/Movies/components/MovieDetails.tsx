@@ -21,6 +21,12 @@ const Section = styled.div`
   justify-content: center;
 `;
 
+const ErrorText = styled.p`
+  margin: 20% auto 0 auto;
+  font-size: 1.6em;
+  color: ${(props) => props.theme.colours.red1};
+`;
+
 const Poster = styled.div`
   flex: 1 1 auto;
   min-width: 40%;
@@ -214,9 +220,13 @@ export const MovieDetails: FC = () => {
     setIsLoading(false);
 
     async function getMovie(id: string) {
-      const data = await getMovieDetails(id);
-      if (data) {
-        setDetails(data);
+      try {
+        const data = await getMovieDetails(id);
+        if (data) {
+          setDetails(data);
+        }
+      } catch (e) {
+        setError('Unable to retrieve movie details');
       }
     }
   }, []);
@@ -236,6 +246,7 @@ export const MovieDetails: FC = () => {
         <Breadcrumb.Divider style={{ color: '#03dac5' }} />
         <Breadcrumb.Section active>Movie</Breadcrumb.Section>
       </Breadcrumb>
+      {error && <ErrorText>Unable to retrieve movie details</ErrorText>}
       {details && (
         <>
           <Section>

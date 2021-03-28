@@ -3,7 +3,7 @@
 exports[`<MovieDetails /> should render the various inner Elements 1`] = `
 <div>
   <div
-    class="sc-hKgILt dPOPoD"
+    class="sc-gsTCUz fpahce"
   >
     <div
       class="ui breadcrumb"
@@ -27,11 +27,12 @@ exports[`<MovieDetails /> should render the various inner Elements 1`] = `
         Movie
       </div>
     </div>
+    
     <div
-      class="sc-eCssSg kxfMDQ"
+      class="sc-dlfnbm jEKTqd"
     >
       <div
-        class="sc-jSgupP dHOwIQ"
+        class="sc-eCssSg jaqjKl"
       >
         <img
           class="ui medium image"
@@ -39,21 +40,21 @@ exports[`<MovieDetails /> should render the various inner Elements 1`] = `
         />
       </div>
       <div
-        class="sc-fubCfw kLaoSA"
+        class="sc-iBPRYJ btCJWd"
       >
         <h1
-          class="sc-gKsewC iRWKrv"
+          class="sc-jSgupP fpakam"
         />
         <div
-          class="sc-kstrdz fdcBMK"
+          class="sc-bqyKva grFWJE"
         >
           <div
-            class="sc-hBEYos ifStfD"
+            class="sc-kstrdz eWXACl"
           >
             <p />
           </div>
           <h4
-            class="sc-bqyKva zsNQM"
+            class="sc-dQppl izJmKb"
           >
             <p />
           </h4>
@@ -61,174 +62,174 @@ exports[`<MovieDetails /> should render the various inner Elements 1`] = `
       </div>
     </div>
     <div
-      class="sc-jrAGrp bBVGMO"
+      class="sc-pFZIQ gwVETK"
     />
     <div
-      class="sc-eCssSg kxfMDQ"
+      class="sc-dlfnbm jEKTqd"
     >
       <div
-        class="sc-pFZIQ ioBRNP"
+        class="sc-fubCfw dBWqGs"
       >
         <h1
-          class="sc-iBPRYJ cyhOWI"
+          class="sc-gKsewC hLzvqM"
         >
           Movie Details
         </h1>
         <p
-          class="sc-crrsfI eapOHR"
+          class="sc-iqHYGH YSPeM"
           style="color: rgb(3, 218, 197);"
         >
           Synposis
         </p>
         <p
-          class="sc-crrsfI eapOHR"
+          class="sc-iqHYGH YSPeM"
           style="color: rgb(255, 255, 255); line-height: 2;"
         >
           Hello World
         </p>
       </div>
       <div
-        class="sc-kEjbxe bjnBP"
+        class="sc-jrAGrp guCCtw"
       >
         <h1
-          class="sc-iBPRYJ cyhOWI"
+          class="sc-gKsewC hLzvqM"
         />
         <div
-          class="sc-dQppl duSnpr"
+          class="sc-crrsfI dqwzxp"
         >
           <p
-            class="sc-iqHYGH iyfEfJ"
+            class="sc-kEjbxe XwxIc"
           >
             Awards
           </p>
           <p
-            class="sc-crrsfI eapOHR"
+            class="sc-iqHYGH YSPeM"
           >
             Oscars
           </p>
         </div>
         <div
-          class="sc-dQppl duSnpr"
+          class="sc-crrsfI dqwzxp"
         >
           <p
-            class="sc-iqHYGH iyfEfJ"
+            class="sc-kEjbxe XwxIc"
           >
             Rated
           </p>
           <p
-            class="sc-crrsfI eapOHR"
+            class="sc-iqHYGH YSPeM"
           >
             PG
           </p>
         </div>
         <div
-          class="sc-dQppl duSnpr"
+          class="sc-crrsfI dqwzxp"
         >
           <p
-            class="sc-iqHYGH iyfEfJ"
+            class="sc-kEjbxe XwxIc"
           >
             Genre
           </p>
           <p
-            class="sc-crrsfI eapOHR"
+            class="sc-iqHYGH YSPeM"
           >
             Action
           </p>
         </div>
         <div
-          class="sc-dQppl duSnpr"
+          class="sc-crrsfI dqwzxp"
         >
           <p
-            class="sc-iqHYGH iyfEfJ"
+            class="sc-kEjbxe XwxIc"
           >
             Director
           </p>
           <p
-            class="sc-crrsfI eapOHR"
+            class="sc-iqHYGH YSPeM"
           >
              Brad Willis
           </p>
         </div>
         <div
-          class="sc-dQppl duSnpr"
+          class="sc-crrsfI dqwzxp"
         >
           <p
-            class="sc-iqHYGH iyfEfJ"
+            class="sc-kEjbxe XwxIc"
           >
             Writer
           </p>
           <p
-            class="sc-crrsfI eapOHR"
+            class="sc-iqHYGH YSPeM"
           >
             Bruce Pitts
           </p>
         </div>
         <div
-          class="sc-dQppl duSnpr"
+          class="sc-crrsfI dqwzxp"
         >
           <p
-            class="sc-iqHYGH iyfEfJ"
+            class="sc-kEjbxe XwxIc"
           >
             Released
           </p>
           <p
-            class="sc-crrsfI eapOHR"
+            class="sc-iqHYGH YSPeM"
           >
             2001
           </p>
         </div>
         <div
-          class="sc-dQppl duSnpr"
+          class="sc-crrsfI dqwzxp"
         >
           <p
-            class="sc-iqHYGH iyfEfJ"
+            class="sc-kEjbxe XwxIc"
           >
             Box Office
           </p>
           <p
-            class="sc-crrsfI eapOHR"
+            class="sc-iqHYGH YSPeM"
           >
             Hollywood
           </p>
         </div>
         <div
-          class="sc-dQppl duSnpr"
+          class="sc-crrsfI dqwzxp"
         >
           <p
-            class="sc-iqHYGH iyfEfJ"
+            class="sc-kEjbxe XwxIc"
           >
             Runtime
           </p>
           <p
-            class="sc-crrsfI eapOHR"
+            class="sc-iqHYGH YSPeM"
           >
             120mins
           </p>
         </div>
         <div
-          class="sc-dQppl duSnpr"
+          class="sc-crrsfI dqwzxp"
         >
           <p
-            class="sc-iqHYGH iyfEfJ"
+            class="sc-kEjbxe XwxIc"
           >
             Studio
           </p>
           <p
-            class="sc-crrsfI eapOHR"
+            class="sc-iqHYGH YSPeM"
           >
             Disney
           </p>
         </div>
         <div
-          class="sc-dQppl duSnpr"
+          class="sc-crrsfI dqwzxp"
         >
           <p
-            class="sc-iqHYGH iyfEfJ"
+            class="sc-kEjbxe XwxIc"
           >
             Country
           </p>
           <p
-            class="sc-crrsfI eapOHR"
+            class="sc-iqHYGH YSPeM"
           >
             USA
           </p>
@@ -236,52 +237,52 @@ exports[`<MovieDetails /> should render the various inner Elements 1`] = `
       </div>
     </div>
     <div
-      class="sc-jrAGrp bBVGMO"
+      class="sc-pFZIQ gwVETK"
     />
     <div
-      class="sc-eCssSg kxfMDQ"
+      class="sc-dlfnbm jEKTqd"
     >
       <h1
-        class="sc-iBPRYJ cyhOWI"
+        class="sc-gKsewC hLzvqM"
         style="width: 100%; text-align: left;"
       >
         Cast
       </h1>
       <div
-        class="sc-dQppl duSnpr"
+        class="sc-crrsfI dqwzxp"
         style="width: 100%; flex-wrap: wrap;"
       >
         <div
-          class="sc-fodVxV glkGqZ"
+          class="sc-hBEYos bOlHTy"
           style="min-width: 25%;"
         >
           <div
-            class="sc-hBEYos ifStfD"
+            class="sc-kstrdz eWXACl"
           >
             <p>
               J
             </p>
           </div>
           <p
-            class="sc-crrsfI eapOHR"
+            class="sc-iqHYGH YSPeM"
             style="display: inline;"
           >
             Jennifer Lawrence
           </p>
         </div>
         <div
-          class="sc-fodVxV glkGqZ"
+          class="sc-hBEYos bOlHTy"
           style="min-width: 25%;"
         >
           <div
-            class="sc-hBEYos ifStfD"
+            class="sc-kstrdz eWXACl"
           >
             <p>
               B
             </p>
           </div>
           <p
-            class="sc-crrsfI eapOHR"
+            class="sc-iqHYGH YSPeM"
             style="display: inline;"
           >
             Bruce Anniston
