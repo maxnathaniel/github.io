@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MovieItem /> should render the various inner Elements 1`] = `
+<div>
+  <div
+    class="sc-hKgILt fRnfuM"
+  >
+    <div
+      class="sc-eCssSg fnifPK"
+    >
+      <img
+        alt="movie-img"
+        class="ui big image"
+        style="border: 2px solid #03dac5;"
+      />
+    </div>
+  </div>
+</div>
+`;

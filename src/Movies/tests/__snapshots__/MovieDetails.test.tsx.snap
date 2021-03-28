@@ -1,0 +1,294 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MovieDetails /> should render the various inner Elements 1`] = `
+<div>
+  <div
+    class="sc-hKgILt dPOPoD"
+  >
+    <div
+      class="ui breadcrumb"
+      style="margin-top: 10px; width: 80%; text-align: left;"
+    >
+      <a
+        class="section"
+        style="color: rgb(3, 218, 197);"
+      >
+        Home
+      </a>
+      <div
+        class="divider"
+        style="color: rgb(3, 218, 197);"
+      >
+        /
+      </div>
+      <div
+        class="active section"
+      >
+        Movie
+      </div>
+    </div>
+    <div
+      class="sc-eCssSg kxfMDQ"
+    >
+      <div
+        class="sc-jSgupP dHOwIQ"
+      >
+        <img
+          class="ui medium image"
+          style="margin: 0px auto;"
+        />
+      </div>
+      <div
+        class="sc-fubCfw kLaoSA"
+      >
+        <h1
+          class="sc-gKsewC iRWKrv"
+        />
+        <div
+          class="sc-kstrdz fdcBMK"
+        >
+          <div
+            class="sc-hBEYos ifStfD"
+          >
+            <p />
+          </div>
+          <h4
+            class="sc-bqyKva zsNQM"
+          >
+            <p />
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-jrAGrp bBVGMO"
+    />
+    <div
+      class="sc-eCssSg kxfMDQ"
+    >
+      <div
+        class="sc-pFZIQ ioBRNP"
+      >
+        <h1
+          class="sc-iBPRYJ cyhOWI"
+        >
+          Movie Details
+        </h1>
+        <p
+          class="sc-crrsfI eapOHR"
+          style="color: rgb(3, 218, 197);"
+        >
+          Synposis
+        </p>
+        <p
+          class="sc-crrsfI eapOHR"
+          style="color: rgb(255, 255, 255); line-height: 2;"
+        >
+          Hello World
+        </p>
+      </div>
+      <div
+        class="sc-kEjbxe bjnBP"
+      >
+        <h1
+          class="sc-iBPRYJ cyhOWI"
+        />
+        <div
+          class="sc-dQppl duSnpr"
+        >
+          <p
+            class="sc-iqHYGH iyfEfJ"
+          >
+            Awards
+          </p>
+          <p
+            class="sc-crrsfI eapOHR"
+          >
+            Oscars
+          </p>
+        </div>
+        <div
+          class="sc-dQppl duSnpr"
+        >
+          <p
+            class="sc-iqHYGH iyfEfJ"
+          >
+            Rated
+          </p>
+          <p
+            class="sc-crrsfI eapOHR"
+          >
+            PG
+          </p>
+        </div>
+        <div
+          class="sc-dQppl duSnpr"
+        >
+          <p
+            class="sc-iqHYGH iyfEfJ"
+          >
+            Genre
+          </p>
+          <p
+            class="sc-crrsfI eapOHR"
+          >
+            Action
+          </p>
+        </div>
+        <div
+          class="sc-dQppl duSnpr"
+        >
+          <p
+            class="sc-iqHYGH iyfEfJ"
+          >
+            Director
+          </p>
+          <p
+            class="sc-crrsfI eapOHR"
+          >
+             Brad Willis
+          </p>
+        </div>
+        <div
+          class="sc-dQppl duSnpr"
+        >
+          <p
+            class="sc-iqHYGH iyfEfJ"
+          >
+            Writer
+          </p>
+          <p
+            class="sc-crrsfI eapOHR"
+          >
+            Bruce Pitts
+          </p>
+        </div>
+        <div
+          class="sc-dQppl duSnpr"
+        >
+          <p
+            class="sc-iqHYGH iyfEfJ"
+          >
+            Released
+          </p>
+          <p
+            class="sc-crrsfI eapOHR"
+          >
+            2001
+          </p>
+        </div>
+        <div
+          class="sc-dQppl duSnpr"
+        >
+          <p
+            class="sc-iqHYGH iyfEfJ"
+          >
+            Box Office
+          </p>
+          <p
+            class="sc-crrsfI eapOHR"
+          >
+            Hollywood
+          </p>
+        </div>
+        <div
+          class="sc-dQppl duSnpr"
+        >
+          <p
+            class="sc-iqHYGH iyfEfJ"
+          >
+            Runtime
+          </p>
+          <p
+            class="sc-crrsfI eapOHR"
+          >
+            120mins
+          </p>
+        </div>
+        <div
+          class="sc-dQppl duSnpr"
+        >
+          <p
+            class="sc-iqHYGH iyfEfJ"
+          >
+            Studio
+          </p>
+          <p
+            class="sc-crrsfI eapOHR"
+          >
+            Disney
+          </p>
+        </div>
+        <div
+          class="sc-dQppl duSnpr"
+        >
+          <p
+            class="sc-iqHYGH iyfEfJ"
+          >
+            Country
+          </p>
+          <p
+            class="sc-crrsfI eapOHR"
+          >
+            USA
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-jrAGrp bBVGMO"
+    />
+    <div
+      class="sc-eCssSg kxfMDQ"
+    >
+      <h1
+        class="sc-iBPRYJ cyhOWI"
+        style="width: 100%; text-align: left;"
+      >
+        Cast
+      </h1>
+      <div
+        class="sc-dQppl duSnpr"
+        style="width: 100%; flex-wrap: wrap;"
+      >
+        <div
+          class="sc-fodVxV glkGqZ"
+          style="min-width: 25%;"
+        >
+          <div
+            class="sc-hBEYos ifStfD"
+          >
+            <p>
+              J
+            </p>
+          </div>
+          <p
+            class="sc-crrsfI eapOHR"
+            style="display: inline;"
+          >
+            Jennifer Lawrence
+          </p>
+        </div>
+        <div
+          class="sc-fodVxV glkGqZ"
+          style="min-width: 25%;"
+        >
+          <div
+            class="sc-hBEYos ifStfD"
+          >
+            <p>
+              B
+            </p>
+          </div>
+          <p
+            class="sc-crrsfI eapOHR"
+            style="display: inline;"
+          >
+            Bruce Anniston
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

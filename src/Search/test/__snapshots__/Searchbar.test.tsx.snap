@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Searchbar /> should get movies and invoke callback on Enter key 1`] = `
+<div>
+  <div
+    class="sc-hKgILt eiTDbV"
+  >
+    <h1
+      class="sc-eCssSg kQUeHL"
+    >
+      MOVIES
+    </h1>
+    <div
+      class="sc-jSgupP jhbBPc"
+    >
+      <div
+        class="ui small fluid icon input"
+        data-testid="search-input"
+      >
+        <input
+          placeholder="Input Movie Title..."
+          type="text"
+          value="star wars"
+        />
+        <i
+          aria-hidden="true"
+          class="search icon"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Searchbar /> should render search text in Input el 1`] = `
+<div>
+  <div
+    class="sc-hKgILt eiTDbV"
+  >
+    <h1
+      class="sc-eCssSg kQUeHL"
+    >
+      MOVIES
+    </h1>
+    <div
+      class="sc-jSgupP jhbBPc"
+    >
+      <div
+        class="ui small fluid icon input"
+        data-testid="search-input"
+      >
+        <input
+          placeholder="Input Movie Title..."
+          type="text"
+          value="star wars"
+        />
+        <i
+          aria-hidden="true"
+          class="search icon"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Searchbar /> should render the various inner Elements 1`] = `
+<div>
+  <div
+    class="sc-hKgILt eiTDbV"
+  >
+    <h1
+      class="sc-eCssSg kQUeHL"
+    >
+      MOVIES
+    </h1>
+    <div
+      class="sc-jSgupP jhbBPc"
+    >
+      <div
+        class="ui small fluid icon input"
+        data-testid="search-input"
+      >
+        <input
+          placeholder="Input Movie Title..."
+          type="text"
+          value=""
+        />
+        <i
+          aria-hidden="true"
+          class="search icon"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
