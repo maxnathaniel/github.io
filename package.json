@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "http://maxnathaniel.github.io/movies",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "webpack-dev-server --open --config build/webpack.dev.js",
+    "start": "node server/main.js",
     "test": "jest",
     "test-coverage": "jest --coverage",
     "build": "webpack --config build/webpack.prod.js"
