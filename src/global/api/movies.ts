@@ -1,6 +1,6 @@
 import { fetchit } from 'src/global';
 
-const URL = 'http://www.omdbapi.com/';
+const URL = 'https://www.omdbapi.com/';
 const API_KEY = 'b9bd48a6';
 
 export const getMovies = async (name: string, page: number) => {
