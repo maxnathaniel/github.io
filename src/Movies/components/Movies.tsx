@@ -1,6 +1,6 @@
 import React, { FC, useEffect, useRef, useState } from 'react';
 
-import { getMovies, styled } from 'src/global';
+import { device, getMovies, styled } from 'src/global';
 import { SearchBar } from 'src/Search';
 import { MovieItem } from './MovieItem';
 
@@ -9,16 +9,42 @@ const MoviesContainer = styled.div`
   flex-wrap: wrap;
 `;
 
-const WelcomeText = styled.p`
-  font-size: 1.8em;
+const CenterPos = styled.div`
+  display: flex;
+  min-width: 100vw;
+  min-height: calc(100vh - 60px);
   color: ${(props) => props.theme.colours.neon1};
-  margin: 20% auto 0 auto;
-`;
+  justify-content: center;
 
-const ErrorText = styled.p`
-  margin: 20% auto 0 auto;
-  font-size: 1.6em;
-  color: ${(props) => props.theme.colours.red1};
+  > p {
+    text-align: center;
+    font-size: 1em;
+    align-self: center;
+  }
+
+  @media only screen and ${device.mobileM} {
+    > p {
+      font-size: 1.2em;
+    }
+  }
+
+  @media only screen and ${device.mobileL} {
+    > p {
+      font-size: 1.4em;
+    }
+  }
+
+  @media only screen and ${device.tablet} {
+    > p {
+      font-size: 1.6em;
+    }
+  }
+
+  @media only screen and ${device.laptop} {
+    > p {
+      font-size: 1.8em;
+    }
+  }
 `;
 
 const Bottom = styled.div``;
@@ -145,11 +171,15 @@ export const Movies: FC = () => {
         onError={onMoviesUpdateError}
       />
       {!movies.length && !error && (
-        <WelcomeText>
-          No results found. Please type in the search bar above.
-        </WelcomeText>
+        <CenterPos>
+          <p> No results found. Please type in the search bar above.</p>
+        </CenterPos>
       )}
-      {error && <ErrorText>Error retrieving movies</ErrorText>}
+      {error && (
+        <CenterPos>
+          <p>Error retrieving movies</p>
+        </CenterPos>
+      )}
       {movies.map((movie) => {
         return <MovieItem key={movie.imdbID} data={movie} />;
       })}
