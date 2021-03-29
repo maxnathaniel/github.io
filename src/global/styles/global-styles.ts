@@ -34,6 +34,24 @@ export const GlobalStyle = createGlobalStyle<any>`
     font-weight: 700;
     font-style: normal;
   }
+  /* Sets the dimensions of the entire scrollbar */
+  html::-webkit-scrollbar {
+      width: 30px;
+      height: 30px;
+  }
+
+  /* The grabbable scrollbar button  */
+  html::-webkit-scrollbar-thumb {
+      background: -webkit-gradient(linear,left top,left bottom,from(#1f4037),to(#99f2c8));
+      background: linear-gradient(180deg,#1f4037,#99f2c8);
+      border-radius: 30px;
+      box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25), inset -2px -2px 2px rgba(0,0,0,.25);
+  }
+
+  /* The vertical scrollbar background */
+  html::-webkit-scrollbar-track {
+      background: linear-gradient(90deg,#201c29,#201c29 1px,#100e17 0,#100e17);
+  }
   body {
     font-family: Pulse, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
