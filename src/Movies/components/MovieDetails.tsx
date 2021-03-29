@@ -168,6 +168,42 @@ const Circle = styled.div`
   }
 `;
 
+const PulsingCircle = styled.div`
+  display: inline-block;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  background-color: ${(props) => props.theme.colours.neon1};
+  vertical-align: middle;
+  text-align: center;
+  margin-right: 20px;
+  color: black;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  transform: scale(1);
+  animation: pulse 2s infinite;
+
+  @keyframes pulse {
+    0% {
+      transform: scale(0.85);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+      transform: scale(0.85);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+  }
+
+  > p {
+    margin-top: 30%;
+  }
+`;
+
 const ActorWrapper = styled.div`
   flex: 1 1 auto;
   text-align: left;
@@ -272,9 +308,9 @@ export const MovieDetails: FC = () => {
                 details.Ratings.map((rating) => {
                   return (
                     <RatingsWrapper key={rating}>
-                      <Circle>
+                      <PulsingCircle>
                         <p>{rating.Value}</p>
-                      </Circle>
+                      </PulsingCircle>
                       <Source>
                         <p>{rating.Source}</p>
                       </Source>
